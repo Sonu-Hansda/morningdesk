@@ -4,7 +4,7 @@ import Footer from "./sections/Footer"
 import Header from "./sections/Header"
 import Features from "./sections/Features"
 import About from "./sections/About"
-import Work from "./sections/Work"
+// import Work from "./sections/Work"
 import Hero from "./sections/Hero"
 import backgroundImage from "./assets/background.png";
 import Blog from "./sections/Blog"
@@ -50,9 +50,9 @@ export default function App() {
           <Header />
           <Hero />
         </div>
-        <div ref={null} className="snap-always snap-center" id="page3">
+        {/* <div ref={null} className="snap-always snap-center" id="page3">
           <Work />
-        </div>
+        </div> */}
         <div ref={featureSection} className="snap-always snap-center" id="page2">
           <Features />
         </div>
