@@ -7,11 +7,11 @@ export default function Blog() {
             <section className="pb-10 pt-5">
                 <div className="container mx-auto px-4 py-16 md:py-0 relative">
                     <div className='flex gap-x-4 items-center md:items-baseline mb-4 relative'>
-                        <h2 className="md:w-[20%] text-3xl md:text-4xl font-bold text-center mb-10">Our <span className='block font-findel'> BLOGS</span></h2>
+                        <h2 className="absolute md:relative -top-20 md:top-0 md:w-[20%] text-3xl md:text-4xl font-bold text-center mb-10">Our <span className='block font-findel'>BLOGS</span></h2>
                         <p className='w-[80%] md:w-[60%] text-green-800'>Morning Desk leverages AI to streamline operations with innovative chatbot solutions, prioritizing efficiency and exceptional customer experiences.</p>
                         <RxDragHandleDots1 className='absolute right-0 -top-20 md:top-0 w-40 h-20 rotate-90 text-green-800' />
                     </div>
-                    <div className="px-16">
+                    <div className="px-4">
                         {/* Feature 1 */}
                         <div className="flex flex-col md:flex-row gap-x-4 items-center rounded-xl border border-black mb-4">
                             <img className="md:h-40 md:w-40 w-full rounded-xl mb-2 md:mb-0" src={bgImage} alt="Post Image" />

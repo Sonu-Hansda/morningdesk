@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       } else {
         clearInterval(interval);
       }
-    }, 250); // Adjust typing speed here
+    }, 150); // Adjust typing speed here
 
     return () => clearInterval(interval);
   }, []);

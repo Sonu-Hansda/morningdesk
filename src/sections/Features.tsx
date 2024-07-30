@@ -1,16 +1,14 @@
 import React from 'react';
 import { RxDragHandleDots1 } from 'react-icons/rx';
 import bgImage from '../assets/background.png';
-import splashImage from '../assets/splash.png';
 
 const Features: React.FC = () => {
   return (
     <>
       <section className="bg-[#ebf0ea] pb-20 py-20 overflow-hidden">
         <div className="container mx-auto px-4 relative">
-          <img className='absolute -top-60 -left-80 h-96' src={splashImage}/>
           <div className='flex items-baseline relative mb-8 md:mb-0'>
-            <h2 className="md:w-[20%] text-2xl md:text-4xl font-bold text-center mb-10">Our <span className='block font-findel'> Services</span></h2>
+            <h2 className="absolute md:relative -top-20 md:top-0 md:w-[20%] text-2xl md:text-4xl font-bold text-center mb-10">Our <span className='block font-findel'> Services</span></h2>
             <p className='md:w-[60%] text-green-800'>Morning Desk's AI chatbots streamline operations, enhance customer engagement, and provide 24/7 support, driving efficiency and business growth.</p>
             <RxDragHandleDots1 className='absolute right-0 -top-20 md:top-0 w-40 h-20 rotate-90 text-green-800' />
           </div>

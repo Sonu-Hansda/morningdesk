@@ -9,7 +9,7 @@ export default function About() {
         <div className="container mx-auto px-4 relative">
         <img className='hidden md:absolute -top-72 -left-80 h-96' src={splashImage}/>
           <div className='flex items-baseline relative'>
-            <h2 className="md:w-[20%] text-3xl md:text-4xl font-bold text-center mb-10">Know <span className='block font-findel'> About Us</span></h2>
+            <h2 className="absolute md:relative -top-28 md:top-0 md:w-[20%] text-3xl md:text-4xl font-bold text-center mb-10">Know <span className='block font-findel'> About Us</span></h2>
             <p className='w-[80%] md:w-[60%] text-green-800'>Morning Desk leverages AI to streamline operations with innovative chatbot solutions, prioritizing efficiency and exceptional customer experiences.</p>
             <RxDragHandleDots1 className='absolute right-0 -top-28 md:top-0 w-40 h-20 rotate-90 text-green-800' />
           </div>
