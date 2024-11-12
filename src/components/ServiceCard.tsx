@@ -13,29 +13,18 @@ interface ServiceCardProps {
 export const ServiceCard = ({ service, index, isDarkMode }: ServiceCardProps) => {
   return (
     <motion.div
-
     initial={{ opacity: 0, y: 20 }}
-
     whileInView={{ opacity: 1, y: 0 }}
-
     transition={{ 
-
       duration: 0.5, 
-
       delay: index * 0.1 
-
     }}
-
-    className={`p-6 rounded-lg shadow-lg transition-all duration-300 ${
-
+    className={`p-6 rounded-lg shadow-lg cursor-pointer transition-all duration-300 ${
       isDarkMode 
-
         ? 'bg-gray-800 hover:bg-gray-700 text-gray-100' 
 
         : 'bg-white hover:bg-gray-100 text-gray-900'
-
     }`}
-
   >
       <div 
         className={`mb-4 p-3 rounded-full inline-block ${
