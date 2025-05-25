@@ -5,15 +5,15 @@ import { SVGProps } from 'react';
 
 const footerLinks = {
   services: [
-    { name: 'UI/UX Design', href: '#' },
-    { name: 'Web Development', href: '#' },
-    { name: 'Mobile Apps', href: '#' },
-    { name: 'Marketing Materials', href: '#' }
+    { name: 'UI/UX Design', href: '#services' },
+    { name: 'Web Development', href: '#services' },
+    { name: 'Mobile Apps', href: '#services' },
+    { name: 'Marketing Materials', href: '#services' }
   ],
   resources: [
-    { name: 'Portfolio', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Case Studies', href: '#' }
+    { name: 'Portfolio', href: 'https://sonu-hansda.netlify.app/' },
+    // { name: 'Blog', href: '#' },
+    // { name: 'Case Studies', href: '#' }
   ],
   company: [
     { name: 'About Us', href: '/about' },
