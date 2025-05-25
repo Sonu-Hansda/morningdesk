@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import { useTheme } from '../context/ThemeContext'; // Adjust the import based on your context location
+import { useTheme } from '../context/ThemeContext';
 
 interface FormData {
   name: string;
@@ -8,7 +8,7 @@ interface FormData {
 }
 
 const Contact: React.FC = () => {
-  const { isDarkMode } = useTheme(); // Get the dark mode state from context
+  const { isDarkMode } = useTheme();
   const [formData, setFormData] = useState<FormData>({
     name: '',
     service: '',
@@ -19,9 +19,7 @@ const Contact: React.FC = () => {
     'Mobile App Development',
     'Web Development',
     'Graphic Design',
-    'Digital Marketing',
-    'Cloud Solutions',
-    'E-commerce Solutions'
+    'Others'
   ];
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -31,7 +29,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const mailtoLink = `mailto:your-email@example.com?subject=New Inquiry from ${formData.name}&body=Service: ${formData.service}%0D%0ADescription: ${formData.description}`;
+    const mailtoLink = `mailto:sonukumarhansda61@gmail.com?subject=New Inquiry from ${formData.name}&body=Service: ${formData.service}%0D%0ADescription: ${formData.description}`;
     window.location.href = mailtoLink;
   };
 

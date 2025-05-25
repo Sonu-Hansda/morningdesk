@@ -1,6 +1,7 @@
 import { Hero } from '../sections/Hero';
 import { Services } from '../sections/Services';
 import { useTheme } from '../context/ThemeContext';
+import { OurWork } from '../sections/OurWork';
 
 export const Home = () => {
   const { isDarkMode } = useTheme();
@@ -15,6 +16,7 @@ export const Home = () => {
   >
     <Hero />
     <Services />
+    <OurWork/>
   </div>
   );
 };

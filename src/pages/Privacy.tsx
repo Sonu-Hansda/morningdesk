@@ -53,8 +53,8 @@ const PrivacyPolicy: React.FC = () => {
         If you have any questions or concerns about this Privacy Policy, please contact us at:
       </p>
       <p className="mb-4">
-        Email: [email@example.com] <br />
-        Phone: [Phone Number]
+        Email: support@morningdesk.in <br />
+        Phone: +91 7992402517
       </p>
 
       <p className="mb-4">
