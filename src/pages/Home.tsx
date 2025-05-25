@@ -7,7 +7,7 @@ export const Home = () => {
 
   return (
     <div 
-    className={`min-h-screen mx-auto md:max-w-4xl transition-colors duration-300 ${
+    className={`min-h-screen mx-auto transition-colors duration-300 ${
       isDarkMode 
         ? 'bg-gray-900 text-gray-100' 
         : 'bg-white text-gray-900'
