@@ -5,7 +5,6 @@ import { Navbar } from "./components/Navbar"
 import { ThemeProvider } from "./context/ThemeContext"
 import { useTheme } from "./context/ThemeContext"
 import Contact from "./pages/Contact"
-import ServicesPage from "./pages/Services"
 import About from "./pages/About"
 import { useLocation } from "react-router-dom"
 import { useEffect } from "react"
@@ -48,7 +47,6 @@ function AppContent() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<ServicesPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
         </Routes>
