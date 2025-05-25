@@ -9,7 +9,6 @@ import About from "./pages/About"
 import { useLocation } from "react-router-dom"
 import { useEffect } from "react"
 import PrivacyPolicy from "./pages/Privacy"
-import CookieConsent from "./components/CookieConsent"
 
 function App() {
   return (
@@ -52,7 +51,6 @@ function AppContent() {
         </Routes>
       </section>
       <Footer />
-      <CookieConsent/>
     </main>
   )
 }
